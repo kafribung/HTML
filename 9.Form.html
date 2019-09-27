@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>HTML Form</title>
+	</head>
+	<body>
+		<h3>BIODATA Menggunakan Form</h3>
+		<form>
+			<!-- Utamakan untuk menggunakan tag label, jika menggunakan tag label + id ketika tulisan pass diklik maka kursor akan pindah di tempat pengisian -->
+			<!-- Atribut yang ada di INPUT : text, password, rad io, checkbox, submit, reset -->
+			<!-- Atribut yang ada di BUTTON : submit, reset -->
+			<!-- Text % Password -->
+			<label for="user">Username</label> <input type="text" id="user" placeholder="user"> 
+			<label for="pas">Password</label> <input type="password" id="pas">
+				<hr>
+			<!-- Agar kedua radio saling berhubungan maka tambahakan name yang sama -->
+			<!-- Radio Button untuk memilih satu jenis data -->
+			<input type="radio" id="l" name="jenis"> <label for="l">Laki-Laki</label>
+			<input type="radio" id="p" name="jenis"> <label for="p">Perempuan</label>
+				<hr>
+			<!-- Untuk memilih data lebih dari satu gunakan checkbox -->
+			<!-- gunakan Crtl+D untuk menyeleksi text yang sama -->
+			<input type="checkbox" id="takraw"> <label for="takraw">Takraw</label>
+			<input type="checkbox" id="bola"> <label for="bola">Bola</label>
+			<input type="checkbox" id="Badminton"> <label for="Badminton">Badminton</label>
+			 <br>
+			<input type="range" name="">
+				<hr>
+			<input type="submit" value="Kirim">
+			<button type="submit">Kirim2</button>
+			<!-- Saran untuk menggunakan button, karena input bukan bagian dari tombol -->
+			<button type="reset">Reset</button>
+				<hr>
+			<!-- TEXTERA berfungi untuk membuat kotak dialig -->
+			<textarea cols="20px" rows="20px" placeholder="Isi disini"></textarea>
+				<hr>
+			<!-- SELECT berfungsi untuk membuat dropdown -->
+			<select name="Agama">
+				<option>Islam</option>
+				<option>Kristen</option>
+				<option>Hndu</option>
+				<option>Budha</option>
+			</select>
+		</form>
+			<marquee direction="bottom">Kafri</marquee>	
+	</body>
+</html>
